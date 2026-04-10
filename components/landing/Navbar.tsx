@@ -29,7 +29,7 @@ export default function Navbar({ onOpenAuth }: { onOpenAuth?: () => void }) {
       </Link>
 
       {/* Center — Links */}
-      <div className="flex items-center gap-8">
+      <div className="flex flex-row items-center gap-8">
         {[
           { label: 'Services', href: '#services' },
           { label: 'Pricing', href: '#pricing' },
